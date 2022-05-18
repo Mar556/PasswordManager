@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>listSneakers</welcome-file>
+    </welcome-file-list>
+    <jsp-config>
+        <jsp-property-group>
+            <description>header and footer settings</description>
+            <url-pattern>/index.jsp</url-pattern>
+            <url-pattern>/WEB-INF/showAddBuyer.jsp</url-pattern>
+            <url-pattern>/WEB-INF/showAddSneaker.jsp</url-pattern>
+            <url-pattern>/WEB-INF/showProfile.jsp</url-pattern>
+            <url-pattern>/WEB-INF/showReceipt.jsp</url-pattern>
+            <url-pattern>/WEB-INF/showAdminPanel.jsp</url-pattern>
+            <url-pattern>/WEB-INF/showListBuyers.jsp</url-pattern>
+            <url-pattern>/WEB-INF/changePassword.jsp</url-pattern>
+            <url-pattern>/WEB-INF/perchaseList.jsp</url-pattern>
+            <url-pattern>/WEB-INF/showBuySneaker.jsp</url-pattern>
+            <url-pattern>/showLogin.jsp</url-pattern>
+            <url-pattern>/showPurchaseSneaker.jsp</url-pattern>
+            <url-pattern>/WEB-INF/uploadFile.jsp</url-pattern>
+            <url-pattern>/showListSneakers.jsp</url-pattern>
+            <url-pattern>/showRegistration.jsp</url-pattern>
+            <include-prelude>/WEB-INF/jspf/header.jspf</include-prelude>
+            <include-coda>/WEB-INF/jspf/footer.jspf</include-coda>
+        </jsp-property-group>
+    </jsp-config>
+</web-app>
